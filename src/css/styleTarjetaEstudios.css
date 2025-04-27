@@ -1,0 +1,18 @@
+.tarjetaEstudios h2 {
+    margin-bottom: 10px;
+}
+
+.tarjetaEstudios {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tarjetaEstudios:hover {
+    transform: scale(1.05);
+    background-color: #7b6bda;
+}

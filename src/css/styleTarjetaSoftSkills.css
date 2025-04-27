@@ -1,0 +1,18 @@
+.tarjetaSoftSkills h2 {
+    margin-bottom: 10px;
+}
+
+.tarjetaSoftSkills {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.tarjetaSoftSkills:hover {
+    transform: scale(1.05);
+    background-color: #8ea4b3;
+}
